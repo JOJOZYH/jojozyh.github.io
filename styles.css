@@ -56,15 +56,6 @@ h1 {
     color: white !important;
 }
 
-/* Placeholder background images - replace these URLs with your own */
-.btn-project.project1 {
-    background-image: url('https://jojozyh.github.io/project_medical_expenditure_snippet.png');
-}
-
-.btn-project.project2 {
-    background-image: url('https://jojozyh.github.io/project_gender_wage_gap_snippet.png');
-}
-
 /* Hover effect to show background image more clearly */
 .btn-project:hover {
     background-color: rgba(255, 255, 255, 0.5);
