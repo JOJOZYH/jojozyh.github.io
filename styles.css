@@ -58,11 +58,11 @@ h1 {
 
 /* Placeholder background images - replace these URLs with your own */
 .btn-project.project1 {
-    background-image: url('./project_medical_expenditure_snippet.png');
+    background-image: url('');
 }
 
 .btn-project.project2 {
-    background-image: url('./project_gender_wage_gap_snippet.png');
+    background-image: url('https://github.com/JOJOZYH/jojozyh.github.io/blob/main/project_gender_wage_gap_snippet.png');
 }
 
 /* Hover effect to show background image more clearly */
