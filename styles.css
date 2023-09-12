@@ -58,7 +58,7 @@ h1 {
 
 /* Placeholder background images - replace these URLs with your own */
 .btn-project.project1 {
-    background-image: url('');
+    background-image: url('jojozyh.github.io/project_medical_expenditure_snippet.png');
 }
 
 .btn-project.project2 {
@@ -100,4 +100,13 @@ body {
 .project-links {
     padding-top: 100px; /* Increased space above */
     padding-bottom: 100px; /* Increased space below */
+}
+
+/* Setting the background images for the project link buttons */
+.btn-project.project1 {
+    background-image: url('https://jojozyh.github.io/project_medical_expenditure_snippet.png');
+}
+
+.btn-project.project2 {
+    background-image: url('https://jojozyh.github.io/project_gender_wage_gap_snippet.png');
 }
