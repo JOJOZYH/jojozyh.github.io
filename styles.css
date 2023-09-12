@@ -1,0 +1,103 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 4em; /* Making the text much larger */
+    color: #004d99; /* Dark blue for headers */
+    text-align: center; /* Centering the text horizontally */
+}
+
+.container > p {
+    font-size: 2em; /* Making the text larger */
+    text-align: center; /* Centering the text horizontally */
+}
+
+/* Full height container for centering content */
+.welcome-section {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #b3daff; /* Lighter blue for welcoming section */
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #66b3ff; /* Blue navbar */
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #004d99 !important; /* Dark blue for navbar brand */
+}
+
+.nav-link {
+    font-size: 18px;
+    color: #004d99 !important; /* Dark blue for navbar links */
+}
+
+/* Different background color for the project buttons */
+.btn-project {
+    background-color: #3399ff; /* Different blue for buttons */
+    font-size: 24px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    transition: 0.3s;
+    color: white !important;
+}
+
+/* Placeholder background images - replace these URLs with your own */
+.btn-project.project1 {
+    background-image: url('https://via.placeholder.com/200x200?text=Project+1+Image');
+}
+
+.btn-project.project2 {
+    background-image: url('https://via.placeholder.com/200x200?text=Project+2+Image');
+}
+
+/* Hover effect to show background image more clearly */
+.btn-project:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #004d99 !important; /* Dark blue text on hover */
+}
+
+/* Background for the lower section with project links */
+.project-links {
+    background-color: #66b3ff; /* Darker blue for project links section */
+    padding: 50px 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100% !important; /* Ensuring the container takes the full width */
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    max-width: none !important; /* Removing the maximum width restriction */
+}
+
+/* Increase the height of the button and add padding above and below */
+.btn-project {
+    height: 300px; /* Increased height */
+    padding-top: 50px; /* Space above the button */
+    padding-bottom: 50px; /* Space below the button */
+}
+
+/* Increase the overall height of the linking button section */
+.project-links {
+    padding-top: 100px; /* Increased space above */
+    padding-bottom: 100px; /* Increased space below */
+}
