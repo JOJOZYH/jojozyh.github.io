@@ -110,3 +110,16 @@ body {
 .btn-project.project2 {
     background-image: url('https://jojozyh.github.io/project_gender_wage_gap_snippet.png');
 }
+
+/* Fixing the navbar to the top */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+/* Adding padding to body to ensure content isn't hidden behind fixed navbar */
+body {
+    padding-top: 70px; /* Adjust based on the height of your navbar */
+}
