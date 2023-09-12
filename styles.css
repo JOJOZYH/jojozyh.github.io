@@ -58,11 +58,11 @@ h1 {
 
 /* Placeholder background images - replace these URLs with your own */
 .btn-project.project1 {
-    background-image: url('https://via.placeholder.com/200x200?text=Project+1+Image');
+    background-image: url('./project_medical_expenditure_snippet.png');
 }
 
 .btn-project.project2 {
-    background-image: url('https://via.placeholder.com/200x200?text=Project+2+Image');
+    background-image: url('./project_gender_wage_gap_snippet.png');
 }
 
 /* Hover effect to show background image more clearly */
